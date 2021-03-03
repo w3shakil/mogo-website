@@ -1,0 +1,294 @@
+ @media(max-width:1400px){
+    .banner-text h1 {
+        font-size: 150px;
+        margin-bottom: 100px;
+    }
+    .banner-text h3 {
+        font-size: 75px;
+        margin-top: 50px;
+    } 
+} 
+
+@media(min-width:1200px) and (max-width:1399px){
+    .banner-text h1 {
+        font-size: 100px;
+        margin-bottom: 100px;
+    }
+    .banner-text h3 {
+        font-size: 60px;
+        margin-top: 50px;
+    } 
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .banner-text h1 {
+        font-size: 65px;
+        margin-bottom: 100px;
+    }
+    .banner-text h3 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .follow i {
+        padding: 0 6px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .banner-text h1 {
+        font-size: 50px;
+        margin-bottom: 80px;
+    }
+    .banner-text h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .navbar-brand {
+       margin-top: -10px;
+    }
+    .service-item {
+        padding-bottom: 40px;
+    }
+    .feed-icon i {
+        margin-left: 22px;
+        margin-top: 7px;
+    }
+    .feedmain .left {
+        top: 38%;
+    }
+    .feedmain .right {
+        top: 38%;
+    }
+    .team-overlay i {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fce38a;
+	color: #f38181;
+	font-size: 26px;
+	text-align: center;
+	border: 1px solid #f38181;
+    }
+    #team {
+	padding-top: 50px;
+}
+    .team-overlay i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+
+}
+
+@media(min-width:576px) and (max-width:767px){
+    .banner-text h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-text h3 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .banner-text a {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+    .banner-text h1::after {
+       display: none;
+    }
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none; 
+    }
+    .navbar-nav {
+        background-color: #f38181;
+    }
+    .nav-item {
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        line-height: 29px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+        display: none;
+    }
+    #about {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .head h2 {
+        font-size: 22px;
+    }
+    .head p {
+        padding: 0 0px;
+    }
+    .about-main {
+        padding-top: 40px;
+    }
+    .about-item{
+        margin-bottom: 20px;
+    }
+    #counter-main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #service{
+        padding-top: 50px;
+    }
+    .service-item{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .service-text p{
+        padding-right: 0px;
+    }
+    .service-text h3 {
+        padding-top: 10px;
+    }
+   .feed-text P{
+       font-size: 20px;
+       line-height: 30px;
+   }
+   .feed-icon i{
+       width: 100px;
+       height: 100px;
+       line-height: 100px;
+       margin-top: 15px;
+   }
+   .feedmain .left{
+    display: none !important;
+}
+   .feedmain .right{
+    display: none !important;
+}
+#feedback{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#team{
+    padding-top: 50px;
+}
+}
+@media(max-width: 575.98px){
+    .banner-text h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .banner-text h3 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .banner-text a {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+    .banner-text h1::after {
+       display: none;
+    }
+    .navbar-toggler i{
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none; 
+    }
+    .navbar-nav {
+        background-color: #f38181;
+    }
+    .nav-item {
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        line-height: 29px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after{
+        display: none;
+    }
+    #about {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .head h2 {
+        font-size: 22px;
+    }
+    .head p {
+        padding: 0 0px;
+    }
+    .about-main {
+        padding-top: 40px;
+    }
+    .about-item{
+        margin-bottom: 20px;
+    }
+    #counter-main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #service{
+        padding-top: 50px;
+    }
+    .service-item {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .service-text h3 {
+        padding-top: 10px;
+    }
+    .service-text p {
+     padding-right: 0px; 
+    }
+    .feed-icon{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .feed-icon i {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .feedmain .left{
+        display: none !important;
+    }
+    .feedmain .right{
+        display: none !important;
+    }
+    .feed-text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 33px;
+    }
+    #feedback{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    #team{
+        padding-top: 50px;
+    }
+    #team .head {
+        padding-bottom: 30px;
+    }
+    #gallery {
+        padding-top: 30px;
+    }
+    #footer {
+        padding-top: 30px;
+    }
+    .follow i {
+        padding: 0 3px;
+    }
+    .coppy-right {
+        margin-top: 35px;
+    }
+    .coppy-right p{
+        padding: 10px;
+        line-height: 24px;
+    }
+    @media(min-width:440px) and (max-width:575px){
+        .service-text p{
+         padding: 0 50px;
+        }
+     }
+}
