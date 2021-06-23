@@ -141,7 +141,12 @@ ul, ol{
     display: none;
 }
 /*Modal part goes here*/
-
+.btn-close {
+    box-shadow: none !important;
+}
+.modal {
+    z-index: 999999;
+}
 .modal-dialog {
     max-width: 1170px;
 }
@@ -495,10 +500,14 @@ ul, ol{
   .nav-tabs{
       border-bottom: none;
   }
+  .nav-pills .nav-link {
+      border: none !important;
+      outline: none !important;
+  }
   .nav{
       justify-content: center;
   }
-  .nav-item{
+  .nav-pills .nav-item{
       margin: 0 15px;
   }
 
